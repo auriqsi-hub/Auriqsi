@@ -74,7 +74,7 @@ export const botConfig = {
     },
 
     // How long users must wait before submitting another application (hours).
-    applicationCooldown: 15,
+    applicationCooldown: 1,
 
     // Auto-delete denied applications after this many days.
     deleteDeniedAfter: 1,
@@ -324,7 +324,7 @@ export const botConfig = {
 
       // Allowed safety limits for account-age requirements.
       // 1 = minimum day, 365 = maximum days.
-      minAccountAge: 1,
+      minAccountAge: 25,
       maxAccountAge: 365,
 
       // If true, user receives a DM after verification.
@@ -450,7 +450,7 @@ export const botConfig = {
   features: {
     // Core systems.
     economy: true,
-    leveling: true,
+    leveling: false,
     moderation: true,
     logging: true,
     welcome: true,
